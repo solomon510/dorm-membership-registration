@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h1 class="welcome">Welcome to Dorm membership
+            </h1>
+            <div class="cta-container">
+                <button class="join-btn">Join Now</button>
+                <button class="check-btn">check</button>
+            </div>
+        </div>
+        <div class="form-container invisible">
+            <div class="form">
+                <h1 class="join">Join Dorm 119</h1>
+                <div class="name-container">
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="id-container">
+                    <input type="text" id="id" placeholder="Your Id">
+                </div>
+                <div class="dept-container">
+                    <input type="text" id="dept" placeholder="Your Department">
+                </div>
+                <div class="img-container">
+                    <label for="">Image</label>
+                    <input type="file" id="p-img" accept="image/*">
+                </div>
+                <div class="btn-container"> <input class="submit" type="submit"></div>
+                <div class="from-form-home"><span>Home </span></div>
+                <div class="successful">
+                    Joined successfully!
+                    <div class="given-code">Your code is: <span class="c-span"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="checking invisible">
+            <div class="check-container">
+                <div class="img"></div>
+                <div class="details">
+                    <div><span class="title">Name: </span> <span class="st-name"></span></div>
+                    <div><span class="title">ID: </span> <span class="st-id"></span></div>
+                    <div><span class="title">Department: </span> <span class="st-dept"></span></div>
+                    <div class="back-home"><span>Home </span></div>
+                </div>
+            </div>
+        </div>
+        <div class="code-prompt-container">
+            <div class="code-container invisible">
+                <input type="text" class="code" placeholder="your code">
+                <button class="enter">Enter</button>
+                <div class="to-home"><span>Home </span></div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/register.js"></script>
+</body>
+
+</html>
